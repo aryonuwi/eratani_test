@@ -1,4 +1,4 @@
-package soalSatu
+package soalsatu
 
 func Polycarp(k int) int {
 	// Initialize variables
