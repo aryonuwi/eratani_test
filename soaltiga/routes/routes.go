@@ -7,6 +7,6 @@ import (
 
 func RoutesInit(route *fiber.App) {
 	route.Get("/country", handlers.GetCountry)
-	route.Get("/", handlers.GetUser)
-	route.Post("/", handlers.PostUser)
+	route.Get("users/:country", handlers.GetUser)
+	route.Post("users/", handlers.PostUser)
 }
